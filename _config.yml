@@ -1,0 +1,32 @@
+# Site settings
+title: Johan Bruggeman
+email: info@bruggeman-vof.be
+description: Plantgoed coniferen en sierheesters in P9.
+baseurl: ""
+url: "https://johan-bruggeman.github.io/"
+github_username: johan-bruggeman
+repository: "johan-bruggeman/johan-bruggeman.github.io"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Liquid settings
+compress_html:
+  clippings: all
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []

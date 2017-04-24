@@ -1,0 +1,26 @@
+// template
+$clr-main: #2E8B57;
+$clr-spot: tint($clr-main, 75%);
+
+// gray tints
+$clr-dark-gray: #333;
+$clr-medium-gray: #999;
+$clr-light-gray: #ddd;
+
+// status colors
+$clr-notice: #F5DA81;
+$clr-error: #FE2E2E;
+$clr-success: #088A4B;
+
+// text
+$clr-text: $clr-dark-gray;
+$clr-text-focus: $clr-main;
+
+// border
+$clr-border: $clr-light-gray;
+$clr-border-focus: $clr-main;
+
+// background
+$clr-background: #fff;
+$clr-background-main: $clr-main;
+$clr-background-spot: $clr-spot;

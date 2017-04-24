@@ -1,0 +1,20 @@
+<script src="/js/plugins.js"></script>
+
+<script>
+
+  smoothScroll.init({offset: 48});
+  gumshoe.init();
+  drop.init();
+
+  var myLazyLoad = new LazyLoad({
+    threshold: 50
+  });
+
+  var myLazyLoadIframes = new LazyLoad({
+    elements_selector: "iframe",
+    threshold: 100
+  });
+
+  baguetteBox.run('.gallery');
+
+</script>

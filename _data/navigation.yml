@@ -1,0 +1,19 @@
+nl:
+  - title: Home
+    link: "#home"
+
+  - title: Over ons
+    link: "#over-ons"
+
+  - title: Contact
+    link: "#contact"
+
+fr:
+  - title: Home
+    link: "#home"
+
+  - title: Propos de nous
+    link: "#propos-de-nous"
+
+  - title: Contact
+    link: "#contact"

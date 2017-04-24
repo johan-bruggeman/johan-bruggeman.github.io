@@ -1,0 +1,17 @@
+{% assign contact = site.data.contacts[include.content] %}
+<div class="vcard">
+  <span class="fn">{{ contact.name }}</span>
+  <address class="adr">
+    <span class="street-address">{{ contact.street }}</span>
+    <span class="postal-code">{{ contact.postal }}</span>
+    <span class="locality">{{ contact.locality }}</span>
+  </address>
+  <span class="tel">{{ contact.tel }}</span>
+  <span class="tel mobile">{{ contact.mobile }}</span>
+  <a class="email" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+</div>
+
+<div class="map">
+  <noscript><iframe width="600" height="400" style="border:0" src="https://maps.google.com/maps?hl=nl&amp;q=Wippelgem-eindeken+30%2C+9940+Evergem-Wippelgem&amp;t=m&amp;z=14&amp;output=embed"></iframe></noscript>
+  <iframe width="600" height="400" style="border:0" data-original="https://maps.google.com/maps?hl=nl&amp;q=Wippelgem-eindeken+30%2C+9940+Evergem-Wippelgem&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+</div>

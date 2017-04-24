@@ -1,0 +1,9 @@
+<nav data-gumshoe-header>
+  <h2 data-dropdown>Menu</h2>
+  <ul data-gumshoe data-dropdown-menu>
+    {% for item in site.data.navigation[lang] %}
+      <li><a data-scroll href="{{ item.link }}"{% if page.permalink == item.link %} class="active"{% endif %}>{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% include language.html %}
+</nav>

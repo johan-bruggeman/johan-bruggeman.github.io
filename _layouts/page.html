@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article>
+
+  <h2 id="{{ page.hash }}">{{ page.title }}</h2>
+
+  <div class="columns">
+    {{ content }}
+  </div>
+
+</article>
+
+
+{% if page.bundles %}
+
+  {% for bundle in page.bundles %}
+    <section class="{{ bundle.type }}">
+      <h2{% if bundle.hash %} id="{{ bundle.hash }}"{% endif %}>{{ bundle.title }}</h2>
+      {% include {{ bundle.type }}.html content=bundle.content %}
+    </section>
+  {% endfor %}
+
+{% endif %}

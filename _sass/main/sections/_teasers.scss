@@ -1,0 +1,31 @@
+// section type teasers
+[data-section-type="teasers"] {
+
+  text-align: center;
+
+  & > * {
+    text-align: left;
+  }
+
+  & > article {
+    margin-bottom: em($sp-base);
+    background-color: white;
+    padding: $sp-medium;
+
+    @include grid((
+      ($bp-small, 2, $sp-base),
+      ($bp-medium, 3, $sp-base),
+      ($bp-large, 4, $sp-base * 2),
+    ));
+
+    & > figure {
+      margin: #{-$sp-medium} #{-$sp-medium} $sp-medium;
+
+      & > img {
+        width: 100%;
+      }
+    }
+
+  }
+
+}

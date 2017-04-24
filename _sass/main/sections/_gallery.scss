@@ -1,0 +1,31 @@
+// section type gallery
+[data-section-type="gallery"] {
+
+  & > figure {
+
+    position: relative;
+    margin-bottom: em($sp-base);
+
+    @include grid((
+      ($bp-tiny, 2, $sp-base),
+      ($bp-small, 3, $sp-base),
+      ($bp-medium, 4, $sp-base),
+      ($bp-large, 6, $sp-base),
+    ));
+
+    & > img {
+      width: 100%;
+    }
+
+    & > a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+  }
+
+}

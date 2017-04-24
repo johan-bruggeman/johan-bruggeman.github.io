@@ -1,0 +1,24 @@
+// footer
+$h-footer: 0;
+
+// borders
+$bd-default: 1px solid $clr-border;
+$bd-light: 1px solid shade($clr-border, 20%);
+
+// shadows
+$bs-default: 0 em(1) em(3) rgba(#000, 0.2);
+$bs-focus: 0 em(1) em(5) rgba(#000, 0.2);
+
+// buttons
+$pad-button: em(6) em(8);
+$rad-button: $rad-medium;
+$clr-button-text: #fff;
+$clr-button-background: $clr-main;
+
+// input
+$pad-input: em(6) em(8);
+$rad-input: $rad-medium;
+$clr-input-text: $clr-text;
+$clr-input-background: #fff;
+$bs-input: inset 0 1px 3px rgba(#000, 0.06);
+$bs-input-focus: $bs-input, 0 0 5px adjust-color($clr-border-focus, $lightness: -5%, $alpha: -0.3);

@@ -1,0 +1,41 @@
+// section type text
+[data-section-type="text"] {
+
+  $size: 6;
+  $spacing: 14;
+
+  ol, ul {
+    margin: $sp-small 0;
+  }
+
+  ol {
+	   counter-reset: list-counter;
+  }
+
+  li {
+    padding-left: em($size + $spacing + 2);
+
+    &:before {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  ol > li:before {
+  	content: counter(list-counter);
+  	counter-increment: list-counter;
+    width: em($size + $spacing);
+    margin-left: em(0 - $size - $spacing);
+    margin-top: em($fs-base / -4);
+  }
+
+  ul > li:before {
+    content: "";
+    margin: em($size / -2) em($spacing) 0 em(0 - $size - $spacing);
+    width: em($size);
+    height: em($size);
+    border-radius: 50%;
+    background-color: $clr-text;
+  }
+
+}

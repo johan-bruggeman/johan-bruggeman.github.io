@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+{% assign lang = page.path | slice: 7, 2 %}
+{% assign trans = site.data.translations[lang] %}
+
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <h1 id="home">
+      <span class="title">{{ site.title }}</span>
+      <span class="hyphen"> - </span>
+      <span class="slogan">{{ trans.site.slogan }}</span>
+    </h1>
+
+    <figure class="banner">
+      <noscript><img src="/media/banners/{{ page.banner }}" alt="Banner" width="1600" height="360"/></noscript>
+      <img src="/img/banner.png" data-original="/media/banners/{{ page.banner }}" alt="Banner" width="1600" height="360"/>
+    </figure>
+
+    {% include navigation.html %}
+
+    {{ content }}
+
+    {% include scripts.html %}
+
+  </body>
+</html>
