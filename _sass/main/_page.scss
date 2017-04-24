@@ -22,10 +22,12 @@ body > *:not(figure):not(iframe) {
 noscript + iframe,
 noscript + img {
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 
   &.loaded {
     opacity: 1;
+    transform: scale(1);
   }
 }
 
