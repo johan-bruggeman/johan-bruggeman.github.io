@@ -25,5 +25,5 @@ bekomen, essentieel voor de verdere opkweek in uw *kwekerij* of *tuincentrum*.
 Door de eerder geringe oppervlakte van dit *plantgoedbedrijf* geldt hier zeker het motto:
 **Kwaliteit boven kwantiteit!**
 
-Aarzel niet de actuele voorraadlijst aan te vragen en een bezoek te brengen aan deze *kwekerij*.
+Aarzel niet de actuele voorraadlijst aan te vragen en een bezoek te brengen aan onze *kwekerij* te *Evergem* - *Wippelgem".
 U bent steeds welkom!
