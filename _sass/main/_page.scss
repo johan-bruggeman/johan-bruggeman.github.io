@@ -28,42 +28,7 @@ noscript + img {
     opacity: 1;
   }
 }
-/*
-figure:nth-child(2) img {
-  -webkit-transition-delay: .2s;
-  transition-delay: .2s;
-}
 
-figure:nth-child(3) img {
-  -webkit-transition-delay: .4s;
-  transition-delay: .4s;
-}
-
-figure:nth-child(4) img {
-  -webkit-transition-delay: .6s;
-  transition-delay: .6s;
-}
-
-figure:nth-child(5) img {
-  -webkit-transition-delay: .8s;
-  transition-delay: .8s;
-}
-
-figure:nth-child(6) img {
-  -webkit-transition-delay: 1s;
-  transition-delay: 1s;
-}
-
-figure:nth-child(7) img {
-  -webkit-transition-delay: 1.2s;
-  transition-delay: 1.2s;
-}
-
-figure:nth-child(7) ~ figure img {
-  -webkit-transition-delay: 1.4s;
-  transition-delay: 1.4s;
-}
-*/
 
 
 // title & slogan
@@ -266,6 +231,10 @@ section {
 
 article + section {
   background-color: mix(white, $clr-light-gray, 65%);
+}
+
+article em {
+  font-style: normal;
 }
 
 // footer
