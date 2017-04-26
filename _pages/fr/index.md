@@ -16,11 +16,11 @@ bundles:
     content: johan-bruggeman
 ---
 
-Dans la pépinière très soignée de Johan Bruggeman, vous trouvez des jeunes plantes de
-**conifères et d’arbustes d’ornement en P9**, obtenu par ses propres boutures de variété authentique.
+Dans la *pépinière* très soignée de *Johan Bruggeman*, vous trouvez des jeunes *plantes* de
+**conifères** et **d’arbustes d’ornement** en **P9**, obtenu par ses propres boutures de variété authentique.
 
 Surtout les arbustes d’ornement sont taillés plusieurs fois par saison, essentiel pour obtenir
-**une ramification optimale** de vos plantes dans votre pépinière ou centre de jardin.
+**une ramification optimale** de vos *plantes* dans votre *pépinière* ou *centre de jardin*.
 
 La surface de la pépinière n’est pas très grande, ici on constate: **Qualité à la quantité!**
 
